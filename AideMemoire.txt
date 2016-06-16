@@ -1,42 +1,34 @@
-usage: git [--version] [--help] [-C <path>] [-c name=value]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-           <command> [<args>]
+Voici les commandes Git à utiliser suivant les situations :
 
-These are common Git commands used in various situations:
+Pour démarrer un espace de travail
+   clone      Clone un dépôt dans un nouveau répertoire
+   init       Créer un dépôt Git vide ou réinitialiser un existant
 
-start a working area (see also: git help tutorial)
-   clone      Clone a repository into a new directory
-   init       Create an empty Git repository or reinitialize an existing one
+Travailler sur les changements en cours 
+   add        Ajouter le contenu du fichier à l'index
+   mv         Déplacer ou renommer un fichier, un répertoire ou un lien symbolique
+   reset      Réinitialiser HEAD courant à l'état spécifié
+   rm         Supprimer les fichiers de l'arbre de travail et de l'index
 
-work on the current change (see also: git help everyday)
-   add        Add file contents to the index
-   mv         Move or rename a file, a directory, or a symlink
-   reset      Reset current HEAD to the specified state
-   rm         Remove files from the working tree and from the index
+Examiner l'historique et les états
+   bisect     Utilisation de recherche binaire pour trouver le commit qui a introduit un bug
+   grep       Affichage des lignes correspondant à une chaine
+   log        Affichage des logs de commit
+   show       Afficher différents types d'objets
+   status     Affiche l'état de la branche sur laquelle on se trouve
 
-examine the history and state (see also: git help revisions)
-   bisect     Use binary search to find the commit that introduced a bug
-   grep       Print lines matching a pattern
-   log        Show commit logs
-   show       Show various types of objects
-   status     Show the working tree status
+Developper, marquer et modifier votre historique
 
-grow, mark and tweak your common history
-   branch     List, create, or delete branches
-   checkout   Switch branches or restore working tree files
-   commit     Record changes to the repository
-   diff       Show changes between commits, commit and working tree, etc
-   merge      Join two or more development histories together
-   rebase     Reapply commits on top of another base tip
-   tag        Create, list, delete or verify a tag object signed with GPG
+   branch     Afficher, créer ou effacer une branche
+   checkout   Pour changer de branches
+   commit     Pour enregistrer les changements dans le repository
+   diff       Pour affcher des différences entre commit, commit et arbre courant, ...
+   merge      Permet de joindre au moins deux branches ensemble
+   rebase     Pour réappliquer un commit su une autre branche
+   tag        Créer, liste, supprimer ou vérifier un objet tag signé avec GPG
 
-collaborate (see also: git help workflows)
-   fetch      Download objects and refs from another repository
-   pull       Fetch from and integrate with another repository or a local branch
-   push       Update remote refs along with associated objects
+Collaborer
 
-'git help -a' and 'git help -g' list available subcommands and some
-concept guides. See 'git help <command>' or 'git help <concept>'
-to read about a specific subcommand or concept.
+   fetch      Récupérer les objets et références d'un autre repository
+   pull       Pour mettre à jour un repository ou une branche locale
+   push       Pour mettre à jour un repository distant
