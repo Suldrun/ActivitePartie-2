@@ -1,1 +1,104 @@
-A renseigner
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Les commandes Git</title>
+
+		<style type="text/css"> 
+			h2{
+				margin-bottom: 5px; 
+				margin-top: 12px; 
+			}
+			.decalage {
+				display: flex;
+			}
+			.option {
+				margin-left: 50px;
+				width: 100px;
+			}		
+		</style>	
+	</head>
+  
+	<body>
+		<h1>Voici les commandes Git à utiliser suivant les situations</h1>
+		
+		<div>
+			<h2>Pour démarrer un espace de travail</h2>
+			<div class="decalage">
+				<span class="option">clone</span><span>Clone un dépôt dans un nouveau répertoire</span>
+			</div>
+			<div class="decalage">
+				<span class="option">init</span><span>Créer un dépôt Git vide ou réinitialiser un existant</span>
+			</div>
+		</div>
+		<div>
+			<h2>Travailler sur les changements en cours</h2>
+			<div class="decalage">
+				<span class="option">add</span><span>Ajouter le contenu du fichier à l'index</span>
+			</div>
+			<div class="decalage">				
+				<span class="option">mv</span><span>Déplacer ou renommer un fichier, un répertoire ou un lien symbolique</span>
+			</div>
+			<div class="decalage">				
+				<span class="option">reset</span><span>Réinitialiser HEAD courant à l'état spécifié</span>
+			</div>
+			<div class="decalage">				
+				<span class="option">rm</span><span>Supprimer les fichiers de l'arbre de travail et de l'index</span>	
+			</div>				
+		</div>
+		<div>
+			<h2>Examiner l'historique et les états</h2>
+			<div class="decalage">			
+				<span class="option">bisect</span><span>Utilisation de recherche binaire pour trouver le commit qui a introduit un bug</span>
+			</div>
+			<div class="decalage">				
+				<span class="option">grep</span><span>Affichage des lignes correspondant à une chaine</span>
+			</div>
+			<div class="decalage">				
+				<span class="option">log</span><span>Affichage des logs de commit</span>
+			</div>
+			<div class="decalage">				
+				<span class="option">show</span><span>Afficher différents types d'objets</span>
+			</div>
+			<div class="decalage">				
+				<span class="option">status</span><span>Affiche l'état de la branche sur laquelle on se trouve</span>
+			</div>				
+		</div>	
+		<div>
+			<h2>Developper, marquer et modifier votre historique</h2>
+			<div class="decalage">			
+				<span class="option">branch</span><span>Afficher, créer ou effacer une branche</span>
+			</div>
+			<div class="decalage">				
+				<span class="option">checkout</span><span>Pour changer de branche</span>
+			</div>
+			<div class="decalage">				
+				<span class="option">commit</span><span>Pour enregistrer les changements dans le repository</span>
+			</div>
+			<div class="decalage">				
+				<span class="option">diff</span><span>Pour affcher des différences entre commit, commit et arbre courant, ...</span>
+			</div>
+			<div class="decalage">				
+				<span class="option">merge</span><span>Pour réappliquer un commit su une autre branche</span>
+			</div>
+			<div class="decalage">				
+				<span class="option">rebase</span><span>Pour réappliquer un commit su une autre branche</span>
+			</div>
+			<div class="decalage">				
+				<span class="option">tag</span><span>Créer, liste, supprimer ou vérifier un objet tag signé avec GPG</span>	
+			</div>				
+		</div>	
+		<div>
+			<h2>Collaborer</h2>
+			<div class="decalage">			
+				<span class="option">fetch</span><span>Récupérer les objets et références d'un autre repository</span>
+			</div>
+			<div class="decalage">				
+				<span class="option">pull</span><span>Pour mettre à jour un repository ou une branche locale</span>
+			</div>
+			<div class="decalage">				
+				<span class="option">push</span><span>Pour mettre à jour un repository distant</span>
+			</div>		
+		</div>			
+	</body>
+</html>
